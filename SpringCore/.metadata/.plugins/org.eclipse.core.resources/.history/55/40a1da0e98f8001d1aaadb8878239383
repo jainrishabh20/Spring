@@ -1,0 +1,22 @@
+package com.springcore.constructorInj;
+
+public class Person {
+	private String pname;
+	private int pid;
+	
+	public Person(String pname, int pid) {
+		super();
+		this.pname = pname;
+		this.pid = pid;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.pname+" : "+this.pid;
+	}
+	
+	
+	
+
+}
